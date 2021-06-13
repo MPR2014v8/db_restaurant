@@ -10,6 +10,6 @@
     if (!$conn) {
         die("***Connection : Failed (เชื่อมต่อฐานข้อมูลไม่สำเร็จ T_T)***" . mysqli_connect_error());
     } else {
-        //secho "***Conection : Success (เชื่อมต่อฐานข้อมูลสำเร็จ)***";
+        echo "***Conection : Success (เชื่อมต่อฐานข้อมูลสำเร็จ)***";
     }
 ?>
